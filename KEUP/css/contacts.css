@@ -1,0 +1,7 @@
+/*ПРАВИЛА СТРАНИЦЫ "КОНТАКТЫ"*/
+
+.contacts {
+	font-weight: bold;
+	padding-bottom: 9px;
+	border-bottom: 5px solid #0077bb;
+}

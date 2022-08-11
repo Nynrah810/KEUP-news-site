@@ -1,0 +1,39 @@
+/*ПРАВИЛА СТРАНИЦЫ "ПРАВИЛА ПОСТУПЛЕНИЯ"*/
+
+.rules {
+	font-weight: bold;
+	padding-bottom: 9px;
+	border-bottom: 5px solid #0077bb;
+}
+
+section .container {
+	width: 971px;
+	padding: 80px 100px;
+}
+
+section p, section a, ol li {
+	font-size: 18px;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	text-align: justify;
+}
+
+ol li {
+	display: list-item;
+}
+
+section h2 {
+	font-weight: 900;
+	font-size: 34px;
+	line-height: 24px;
+	text-align: justify;
+	letter-spacing: 0.244em;
+	margin-bottom: 39px;
+}
+
+/*ТЕМНАЯ ТЕМА*/
+
+body.dark {
+	color: #fff;
+}

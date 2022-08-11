@@ -1,0 +1,196 @@
+/*ГЛОБАЛЬНЫЕ ПРАВИЛА*/
+
+/*правила по умолчанию*/
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat';
+	color: black;
+	font-size: 24px;
+	background-color: #f8f8f8;
+}
+
+html, body {
+	height: 100%;
+}
+
+section .container {
+	min-height: calc(100vh - 276px);
+}
+
+h1, h2, h3, p {
+	padding: 0;
+	margin: 0;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+/*СВЕТЛАЯ ТЕМА*/
+
+/*шапка*/
+
+header .container {
+	background: #0089d7;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.logodstu {
+	width: 77px;
+	height: 83px;
+	margin-right: 23px;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu li a:hover {
+	transition: all 0.25s ease;
+	background: #fff;
+	color: #0089D7;
+	padding: 27px 0px 27px;
+}
+
+.menu li {
+	margin-right: 38px;
+}
+
+button {
+	cursor: pointer;
+	font-family: 'Montserrat';
+	background: #00318F;
+	font-size: 24px;
+	color: #fff;
+	height: 57px;
+	width: 184px;
+	left: 1336px;
+	top: 13px;
+	border-radius: 28.5px;
+	border: none;
+}
+
+button:hover {
+	transition: all 0.25s ease;
+	color: #00318F;
+	background-color: #fff;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+}
+
+section .container {
+	background: #fff;
+}
+
+/*подвал*/
+
+footer .container {
+	background-color: #565656;
+	border-top: 10px solid #a3a3a3;
+	padding-bottom: 34px;
+	display: flex;
+	justify-content: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+h3 {
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: -0.017em;
+	font-weight: 900;
+	text-align: center;
+	margin: 16px 0px 16px;
+}
+
+footer p{
+	color: #fff;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: -0.017em;
+	width: 170px;
+	text-align: center;
+}
+
+.social {
+	margin: 0px 147px 0px 147px;
+}
+
+.social img {
+	width: 37px;
+	height: 37px;
+}
+
+.soc-links {
+	width: 312px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*ТЕМНАЯ ТЕМА*/
+
+body.dark {
+	background-color: #262626;
+}
+
+/*шапка*/
+
+body.dark header .container {
+	background: #00318F;
+}
+
+body.dark header a {
+	color: #fff;
+}
+
+body.dark button {
+	background: #fff;
+	color: #00318F;
+}
+
+body.dark button:hover {
+	color: #fff;
+	background-color: #001B4E;
+}
+
+body.dark section .container {
+	background: #2E2E2E;
+}
+
+/*подвал*/
+
+body.dark footer .container {
+	background-color: #222;
+}
+
+body.dark footer a {
+	color: #fff;
+}
+
+body.dark h3 {
+	color: #fff;
+}
+
+body.dark footer p{
+	color: #fff;
+}

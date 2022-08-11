@@ -1,0 +1,39 @@
+/*ПРАВИЛА СТРАНИЦЫ "СТАТЬЯ"*/
+
+section .container {
+	width: 970px;
+	padding: 30px 100px;
+}
+
+section p {
+	font-size: 18px;
+	line-height: 24px;
+	align-items: center;
+	text-align: justify;
+	padding-top: 30px;
+}
+
+section h2 {
+	font-weight: 900;
+	font-size: 34px;
+	line-height: 32px;
+	text-align: justify;
+	letter-spacing: 0.039em;
+	margin-bottom: 39px;
+}
+
+img {
+	width: 970px;
+}
+
+.date {
+	margin-top: 15px;
+	text-align: right;
+	font-style: italic;
+}
+
+/*ТЕМНАЯ ТЕМА*/
+
+body.dark {
+	color: #fff;
+}
